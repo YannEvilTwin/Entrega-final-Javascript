@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  background-color: #536dfe;
+  font-family: "Nunito Sans";
+}
+
+/*Navbar*/
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #8c9eff 0%, #976cce 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+  font-family: "Nunito Sans";
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+    
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+/*Fin Navbar*/
+/* Slider */
+
+/*Fin Slider*/
+
+/*Portada*/
+
+.portada {
+  background-image: url(../images/portada.jpg);
+  background-size: cover;
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  text-align: center;
+  color: #AFE0FF;
+  -webkit-text-stroke: 2px black;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+.portada h1 {
+  width: 100%;
+}
+.portada h2 {
+  width: 100%;
+}
+/*Fin Portada*/
+
+/*Tienda*/
+
+body {
+  
+  font-family: "Nunito Sans";
+}
+
+.card {
+  border: 0px;
+}
+
+.container {
+  background-color: #8c9eff ;
+  border-radius: 4px;
+}
+
+img:hover {
+  transform: translateY(0px) scale(0.8);
+}
+
+.btn-block {
+  background-color: #3867d6;
+  color: #fff;
+}
+
+.btn-block:hover {
+  color: #fff;
+  background-color: #4b7bec;
+}
+
+@media(max-width: 992px) {
+  .mt-md-20 {
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 768px) {
+  .mt-sm-20 {
+    margin-top: 20px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/*Fin Tienda*/
+
+/*Form*/
+
+h4 {
+  margin-bottom: 30px;
+  margin-top: 40px;
+  color: rgb(227, 223, 241);
+
+}
+.footer-distributed {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px;
+  text-align: left;
+  padding: 50px 60px 40px;
+  overflow: hidden;
+  background-color: #536dfe;
+}
+
+Footer left */
+.footer-distributed .footer-left {
+  float: left;
+  color: white;
+}*/
+
+.footer-distributed h4 {
+  color: white;
+  font: normal 25px "Nunito Sans";
+  margin: 0 0 10px;
+
+}
+
+.footer-distributed .footer-company-name {
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.goto-top{
+   margin-left:-100%;
+   position:fixed;
+   bottom:20px;
+   right:50px;
+ }
+
+p:hover{
+  cursor:pointer;
+}
+
+.success {
+  display: none;
+  background: #e1f8ed;
+  padding: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.success.is-active {
+  display: block;
+}
+/*Fin Form*/
+
+/*Footer Mapa*/
+#map {
+  margin: 0%;
+	height: 300px;
+	width: 100%;
+}
+
+.encuentranos {
+  margin-bottom: 30px;
+  margin-top: 40px;
+  color: rgb(233, 232, 250);
+}
+/*Fin Mapa*/
+

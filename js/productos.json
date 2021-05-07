@@ -1,0 +1,35 @@
+[
+    {
+        "productoid": 1,
+        "nombre": "Kit Redragon",
+        "descripcion": "Un Kit que está pensado para cubrirlo todo y cuenta con los periféricos más famosos de Redragon. Ideal para tu ecosistema Gaming.",
+        "precio": 12000,
+        "precioDescuento": 8699,
+        "imagen": "images/1.png",
+        "categoria":"Kit"
+    },
+    {
+        "productoid": 2,
+        "nombre": "Bluecase BG009ATX",
+        "descripcion": "Diseño simple y compacto, con todo lo que necesitas para tu setup.",
+        "precio": 9000,
+        "precioDescuento" : 7237,
+        "imagen": "images/2.png"
+    },
+    {
+        "productoid": 3,
+        "nombre": "Headset Redragon",
+        "descripcion": "Con los Redragon no te perdés ningún detalle y escuchás el audio tal y como fue diseñado por los creadores.",
+        "precio": 7999,
+        "precioDescuento":6500,
+        "imagen": "images/3.png"
+    },
+    {
+        "productoid": 4,
+        "nombre": "Mouse 3200dpi",
+        "descripcion": "La carcasa del producto está diseñada ergonómicamente y posee un diseño estructural relajado para evitar la fatiga de la mano del mouse.",
+        "precio": 2500,
+        "precioDescuento":1850,
+        "imagen": "images/4.png"
+    }
+]
